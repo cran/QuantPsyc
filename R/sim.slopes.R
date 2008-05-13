@@ -20,9 +20,9 @@ int.zlo <- (b0 + b2*zlo)  # simple intercept
 int.zme <- (b0 + b2*zme)
 
 
-seb.zhi <- sqrt(vcov(mod)[1,1] + 2*zhi*vcov(mod)[1,3] + zhi^2*vcov(mod)[3,3])
-seb.zlo <- sqrt(vcov(mod)[1,1] + 2*zlo*vcov(mod)[1,3] + zlo^2*vcov(mod)[3,3])
-seb.zme <- sqrt(vcov(mod)[1,1] + 2*zme*vcov(mod)[1,3] + zme^2*vcov(mod)[3,3])
+seb.zhi <- sqrt(vcov(mod)[2,2] + 2*zhi*vcov(mod)[2,4] + zhi^2*vcov(mod)[4,4])
+seb.zlo <- sqrt(vcov(mod)[2,2] + 2*zlo*vcov(mod)[2,4] + zlo^2*vcov(mod)[4,4])
+seb.zme <- sqrt(vcov(mod)[2,2] + 2*zme*vcov(mod)[2,4] + zme^2*vcov(mod)[4,4])
 td <- qt(.975, df = summary(mod)$df[2])
 
 zhi.u <- x.zhi + td*seb.zhi  # upper limit of simple slope

@@ -14,8 +14,8 @@ This package contains tools useful in screening univariate and multivariate data
 \tabular{ll}{
 Package: \tab QuantPsyc\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2007-12-27\cr
+Version: \tab 1.1\cr
+Date: \tab 2008-5-13\cr
 License: \tab GPL (version 2 or later)\cr
 }
 
