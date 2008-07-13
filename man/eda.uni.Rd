@@ -31,8 +31,7 @@ Tukey (1977). \emph{Exploratory Data Analysis.} Reading, MA: Addison-Wesley.\cr
 }
 
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
 
 
 \seealso{ \code{\link{hist}}, \code{\link{plot.density}}, \code{\link{qqnorm}}, \code{\link{boxplot}}  }

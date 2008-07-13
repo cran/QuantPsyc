@@ -1,6 +1,5 @@
 \name{sim.slopes}
 \alias{sim.slopes}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{ Moderated Simple Slopes }
 \description{
   Computes the simple slopes for a moderated regression model. 
@@ -9,7 +8,6 @@
 \usage{
 sim.slopes(mod, z, zsd = 1, mcz = FALSE)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{mod}{linear model - usually constructed with \code{moderate.lm} }
   \item{z}{moderating variable}
@@ -37,8 +35,7 @@ Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003). \emph{Applied multiple
 
 }
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
 
 
 \seealso{ \code{\link{moderate.lm}}, \code{\link{graph.mod}}  }

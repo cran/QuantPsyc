@@ -14,8 +14,8 @@ This package contains tools useful in screening univariate and multivariate data
 \tabular{ll}{
 Package: \tab QuantPsyc\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2008-5-13\cr
+Version: \tab 1.2\cr
+Date: \tab 2008-7-13\cr
 License: \tab GPL (version 2 or later)\cr
 }
 
@@ -31,11 +31,11 @@ These functions can be grouped into 4 sets.\cr
 
 \author{
 Thomas D. Fletcher\cr
-Department of Psychology\cr
-University of Missouri - St. Louis\cr
-\url{http://www.umsl.edu/~fletchert}
+Strategic Resources\cr
+State Farm Insurance Cos.\cr
 
-Maintainer: Thomas D. Fletcher <FletcherT@umsl.edu>
+
+Maintainer: Thomas D. Fletcher <tom.fletcher.mp7e@statefarm.com>
 
 }
 \references{

@@ -30,8 +30,7 @@ A numeric value representing the power to detect the effect
 Murphy, K. R., & Myors, B. (2004). \emph{Statistical power analysis: A simple and general model for traditional and modern hypothesis tests (2nd ed.).} Mahwah, NJ: Lawrence Erlbaum Associates.
 
  }
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
 
  \section{Warning }{It is critical that the user correctly specify the model for which the effect is obtained. For instance, if a single coeficient from a regression model is the object of inquiry (e.g., interaction effect in moderation model), the DF should reflect that effect and not the overall model, which also contains the 'main effects'. } 
 

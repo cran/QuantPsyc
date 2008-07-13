@@ -17,8 +17,7 @@ Make.Z(x)
   A numeric or matrix containing standardized data (i.e., z scores)}
 
 
-\author{ Thomas D. Fletcher \email{FletcherT@umsl.edu} \cr
-\url{http://www.umsl.edu/~fletchert} }
+\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
 
  \section{Warning }{The result is a matrix. One may wish to convert to data.frame or use as.data.frame(Make.Z(x))} 
 
