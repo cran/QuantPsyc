@@ -43,7 +43,7 @@ names(d200) <- c("x","m1","m2","y")
 
 library(boot)
 distmed.boot <- boot(d200, distInd.ef, R=999)
-sort(distmed.boot$t[c(25,975)])	#95\% CI
+sort(distmed.boot$t)[c(25,975)]	#95\% CI
 plot(density(distmed.boot$t))	# Distribution of bootstapped indirect effect
 summary(distmed.boot$t)
 
