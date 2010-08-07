@@ -1,17 +1,16 @@
-\name{mean.center}
-\alias{mean.center}
+\name{meanCenter}
+\alias{meanCenter}
 
 \title{ Mean Center Variables}
 \description{
   This simple function subtracts the mean from a variable rendering mean-centered variables.
 }
 \usage{
-mean.center(x, ...)
+meanCenter(x)
 }
 \arguments{
   \item{x}{ variable or column of data to be centered }
-  \item{...}{to be determined}
-  }
+    }
 \details{
   This is particularly useful in lm() with higher order terms as in moderation. 
 }
@@ -24,7 +23,7 @@ mean.center(x, ...)
 
 \examples{
 data(USJudgeRatings)
-usCONT <- mean.center(USJudgeRatings$CONT)
+usCONT <- meanCenter(USJudgeRatings$CONT)
 summary(usCONT)
 
 }

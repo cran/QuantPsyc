@@ -1,5 +1,5 @@
 "sim.slopes" <-
-function (mod,z, zsd=1, mcz=FALSE)
+function (mod, z, zsd=1, mcz=FALSE)
 { 
 if(!mcz)
 { z <- z - mean(z, na.rm=TRUE)}

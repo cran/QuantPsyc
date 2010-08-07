@@ -11,7 +11,7 @@ lm.beta(MOD)
 \arguments{
   \item{MOD}{ MOD is object from \code{lm} with the form y ~ x1 + x2 + ...  }
 }
-}
+
 \value{
   A "numeric" representing each standardized coefficient from lm() model
   

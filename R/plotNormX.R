@@ -1,5 +1,5 @@
-"plot.normX" <-
-function (x, ...)
+"plotNormX" <-
+function (x)
 {
 plot (density(x, na.rm=TRUE), col=4, main = paste("Density of ", deparse(substitute(x))),
 sub = "With Corresponding Normal" )

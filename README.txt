@@ -4,6 +4,12 @@ Changes to v. 1.2
 Changes to v. 1.3 
 	There was a grammar error in help files with examples involving boot() with mediation
 	
-	
+Changes to v. 1.4
+	Corrected numerous help file errors (syntax issues)
+	Renamed 2 functions to eliminate a conflict with classes. 
+	mean.center is now meanCenter
+	plot.normX (plot.normXm) is now plotNormX (plotNormXm)
+	Changes to plotNormXm, now incorporates a for loop
+	added 2 new functions: ClassLog and NormalizeX
 	
 	

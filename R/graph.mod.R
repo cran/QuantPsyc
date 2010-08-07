@@ -1,9 +1,8 @@
 "graph.mod" <-
 function(ssmod, x, y, data, title="",xlab="Centered X",ylab="Raw Y", ylimit=1.5, ...)
 {
-
 attach(data)
-mcx <- mean.center(x)
+mcx <- meanCenter(x)
 yhi <- mean(y, na.rm=TRUE) + ylimit*sd(y, na.rm=TRUE)
 ylo <- mean(y, na.rm=TRUE) - ylimit*sd(y, na.rm=TRUE)
 plot(mcx,y,main=title, xlab=xlab, ylab=ylab, ylim=c(ylo, yhi))
