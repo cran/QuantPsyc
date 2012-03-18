@@ -12,4 +12,8 @@ Changes to v. 1.4
 	Changes to plotNormXm, now incorporates a for loop
 	added 2 new functions: ClassLog and NormalizeX
 	
+Changes to v. 1.5
+	functions using sd() needed to be revised to sapply(MAT, sd)
+	added minor to tweaks to make suitable for R 2.15 upgrade (e.g., 
+	changed library(PACKAGE) to require(PACKAGE) in examples)
 	

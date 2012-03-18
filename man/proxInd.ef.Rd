@@ -35,7 +35,7 @@ MacKinnon, D. P., Lockwood, C. M., & Williams, J. (2004). Confidence limit for i
 
 
 \examples{
-library(boot)
+require(boot)
 data(tra)
 tmp.tra <- tra
 names(tmp.tra) <- c('x','z','m','y')
