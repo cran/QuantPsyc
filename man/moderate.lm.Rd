@@ -28,7 +28,7 @@ Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003). \emph{Applied multiple
 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
  \section{Warning }{This is a very simplistic model. If x or z are categorical, the results will not be accurate. The function can be modified by the user to deal with complications such as covariates, non-continuous variables, etc. } 
 

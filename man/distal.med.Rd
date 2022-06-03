@@ -41,7 +41,7 @@ MacKinnon, D. P., Lockwood, C. M., Hoffman, J. M., West, S. G., & Sheets, V. (20
 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \note{ This function uses the following undocumented functions: \code{se.indirect3} }
 

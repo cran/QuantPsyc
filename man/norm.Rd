@@ -26,7 +26,7 @@ Kurt(x)
   \item{p}{p value associated with z distribution}
   
 }
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \section{Warning }{These statistics should be used with caution as they are influenced by sample size!} 
 \examples{

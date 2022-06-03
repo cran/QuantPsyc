@@ -7,15 +7,15 @@ Quantitative Psychology Tools
 }
 
 \description{
-This package contains tools useful in screening univariate and multivariate data, testing simple moderating relationships, extimating indirect effects based on simple (proximal) and complex (distal) mediating relationships. A tool for computing power in a given F distribution is also included. These are basic operations covered in a multivariate course in most Doctoral level Psychology programs. THese functions will also likely be useful in other domains (e.g., sociology, business management, medicine).
+Contains tools useful in screening univariate and multivariate data, testing simple moderating relationships (Cohen et. al. 2003)<doi:10.4324/9780203774441>, extimating indirect effects based on simple (proximal) and complex (distal) mediating relationships(MacKinnon et. al. 2002)<doi:10.1037/1082-989x.7.1.83> . A tool for computing power in a given F distribution is also included (Murphy & Myors 2014)<ISBN:9781315773155>. These are basic operations covered in a multivariate course in most Doctoral level Psychology programs. THese functions will also likely be useful in other domains (e.g., sociology, business management, medicine).
 
 }
 \details{
 \tabular{ll}{
 Package: \tab QuantPsyc\cr
 Type: \tab Package\cr
-Version: \tab 1.4\cr
-Date: \tab 2010-08-07\cr
+Version: \tab 1.6\cr
+Date: \tab 2022-05-27\cr
 License: \tab GPL (version 2 or later)\cr
 }
 
@@ -31,11 +31,8 @@ These functions can be grouped into 4 sets.\cr
 
 \author{
 Thomas D. Fletcher\cr
-Strategic Resources\cr
-State Farm Insurance Cos.\cr
 
-
-Maintainer: Thomas D. Fletcher <tom.fletcher.mp7e@statefarm.com>
+Maintainer: Thomas D. Fletcher <t.d.fletcher05@gmail.com>
 
 }
 \references{

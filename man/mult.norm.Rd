@@ -29,7 +29,7 @@ A list containing the following:
 Khattree, R. & Naik, D. N. (1999). \emph{Applied multivariate statistics with SAS software (2nd ed.).} Cary, NC: SAS Institute Inc.\cr
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \note{ Mahalanobis is returned without regard to NAs (missing observations) and is useful only in detecting IF multivariate outliers are present. If one wishes to determine which cases are multivariate outliers and if one has missing observations, \code{mahalanobis} is perhaps a better choice. \cr
 

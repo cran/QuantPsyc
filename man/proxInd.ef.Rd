@@ -29,12 +29,14 @@ MacKinnon, D. P., Lockwood, C. M., & Williams, J. (2004). Confidence limit for i
 }
 
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \seealso{ \code{\link{proximal.med}}}
 
 
 \examples{
+
+\donttest{
 require(boot)
 data(tra)
 tmp.tra <- tra
@@ -43,5 +45,8 @@ med.boot <- boot(tmp.tra, proxInd.ef, R=999)
 sort(med.boot$t)[c(25,975)]	#95\% CI
 plot(density(med.boot$t))	# Distribution of bootstapped indirect effect
 summary(med.boot$t)
+
+}
+
 }
 \keyword{ models }

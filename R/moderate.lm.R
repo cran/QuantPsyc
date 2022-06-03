@@ -1,16 +1,24 @@
 "moderate.lm" <-
-function (x,z,y,data,mc=FALSE)
-{
-attach(data)
-if(!mc)
-{mcx <- x - mean(x, na.rm=TRUE)
-mcz <- z - mean(z, na.rm=TRUE)}
-else {
-mcx <- x
-mcz <- z }
-
-lm1 <- lm(y ~ mcx*mcz, na.action=na.omit)
-detach(data)
-return(lm1)
-}
+  function (x,z,y,data,mc=FALSE)
+  {
+    
+    if(!mc)
+    {
+      y <-  data %>% dplyr::select({{y}}) %>% purrr::reduce(c) 
+      xvalues <- data %>% dplyr::select({{x}}) %>% purrr::reduce(c) 
+      zvalues <- data %>% dplyr::select({{z}}) %>% purrr::reduce(c) 
+      
+      mcx <-  xvalues - mean(xvalues, na.rm = TRUE) 
+      mcz <-  zvalues - mean(zvalues, na.rm = TRUE) 
+    }
+    else {
+      y <-  data %>% dplyr::select({{y}}) %>% purrr::reduce(c) 
+      mcx <- data %>% dplyr::select({{x}}) %>% purrr::reduce(c) 
+      mcz <- data %>% dplyr::select({{z}}) %>% purrr::reduce(c) 
+    }
+    
+    lm1 <- lm(y ~ mcx*mcz, na.action=na.omit)
+    
+    return(lm1)
+  }
 

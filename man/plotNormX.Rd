@@ -19,7 +19,7 @@ plotNormXm(x, im)
 A graph of density of x. 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 
 \seealso{ \code{\link{eda.uni}} }
@@ -29,13 +29,11 @@ A graph of density of x.
 data(USJudgeRatings)	# data packaged with R
 plotNormX(USJudgeRatings$CONT) 
 
-# creates a pdf file that contains plots for all 12 variables in USJudgeRatings
+# plot all 12 variables in USJudgeRatings, using function plotNormXm
 
-#	plot.normXm	
 data(USJudgeRatings)	
-pdf("Judge.pdf")	#writes file to working directory 
 plotNormXm(USJudgeRatings, 12) 
-dev.off()
+
 }
 
 \keyword{distribution}

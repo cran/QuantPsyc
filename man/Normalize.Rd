@@ -19,7 +19,7 @@ Joreskog, K., Sorbom, D., du Toit, S., & du Toit, M. (2000). LISREL 8: New Stati
 Snippets of code were borrowed and modified from: http://zoonek2.free.fr/UNIX/48_R/03.html
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \section{Warning }{This is a primative function. I have a long to do list.
 		For example, it is not yet written to handle missing observations.}

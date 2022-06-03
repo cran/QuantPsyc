@@ -5,7 +5,8 @@
   x-y plot containing the simple slopes conditioned on z.
 }
 \usage{
-graph.mod(ssmod, x, y, data, title = "", xlab = "Centered X", ylab = "Raw Y", ylimit = 1.5, ...)
+graph.mod(ssmod, x, y, data, title = "", xlab = "Centered X", 
+  ylab = "Raw Y", ylimit = 1.5, ...)
 }
 \arguments{
   \item{ssmod}{ Results of \code{sim.slopes}; Simple Slopes to be graphed }
@@ -33,7 +34,7 @@ Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003). \emph{Applied multiple
 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \section{Warning }{This is based on a simple 3 variable moderation model with continuous variables. Users must modify the functions to accomodate other models (e.g., categorical moderators, covariates)} 
 

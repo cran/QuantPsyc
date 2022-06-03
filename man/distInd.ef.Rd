@@ -29,12 +29,14 @@ MacKinnon, D. P., Lockwood, C. M., & Williams, J. (2004). Confidence limit for i
 
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 
 \seealso{ \code{\link{distal.med}} }
 
 \examples{
+
+\donttest{
 
 cormat <- matrix (c(1,.3,.15,.075,.3,1,.3,.15,.15,.3,1,.3,.075,.15,.3,1),ncol=4)
 require(MASS)
@@ -46,6 +48,7 @@ distmed.boot <- boot(d200, distInd.ef, R=999)
 sort(distmed.boot$t)[c(25,975)]	#95\% CI
 plot(density(distmed.boot$t))	# Distribution of bootstapped indirect effect
 summary(distmed.boot$t)
+}
 
 }
 \keyword{ models }

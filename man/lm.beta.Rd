@@ -17,7 +17,7 @@ lm.beta(MOD)
   
 }
 
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 
 \section{Warning }{This function does not produce 'correct' standardized coefficients when interaction terms are present} 

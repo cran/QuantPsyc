@@ -1,3 +1,14 @@
 exportPattern(".")
 
-import(boot, MASS)
+import(boot, dplyr)
+
+importFrom("MASS", "mvrnorm")
+
+importFrom("purrr", "reduce")
+
+importFrom("graphics", "abline", "boxplot", "hist", "legend", "lines",
+               "locator", "par")
+
+importFrom("stats", "density", "lm", "na.omit", "pchisq", "pf",
+               "pnorm", "ppoints", "predict", "qchisq", "qf", "qnorm",
+               "qqline", "qqnorm", "qt", "sd", "var", "vcov")

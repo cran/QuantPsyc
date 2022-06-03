@@ -20,7 +20,7 @@
 	\item \emph{overall} Overall percent classifications that are correct
 	\item \emph{mcFadden} McFaddens pseudoRsq; 1 - ModelDeviance / NullDeviance
 	}}
-\author{ Thomas D. Fletcher \email{tom.fletcher.mp7e@statefarm.com} } 
+\author{ Thomas D. Fletcher \email{t.d.fletcher05@gmail.com} } 
 
 \section{Warning }{This is a primative function. I have a long to do list.
 		For example, it is not yet written to handle missing observations.}
